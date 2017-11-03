@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <Button fx:id="myButton" layoutX="145.0" layoutY="62.0" mnemonicParsing="false" onAction="#showResturant" text="决定命运的饭店" AnchorPane.bottomAnchor="315.0" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="155.0" AnchorPane.topAnchor="62.0" />
+      <TextField fx:id="myTextField" layoutX="114.0" layoutY="14.0" AnchorPane.bottomAnchor="363.0" AnchorPane.leftAnchor="114.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="14.0" />
+      <ChoiceBox fx:id="myChoiceBox" layoutX="125.0" layoutY="115.0" prefWidth="150.0" AnchorPane.bottomAnchor="262.0" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="115.0" />
+      <ChoiceBox fx:id="myChoiceBox_price" layoutX="125.0" layoutY="151.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="myChoiceBox_distance" layoutX="125.0" layoutY="190.0" prefWidth="150.0" />
+      <ImageView fitHeight="171.0" fitWidth="125.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../123.jpg" />
+         </image></ImageView>
+      <Label layoutX="71.0" layoutY="119.0" text="菜系" />
+      <Label layoutX="71.0" layoutY="155.0" text="价格" />
+      <Label layoutX="71.0" layoutY="194.0" text="距离" />
+   </children>
+</AnchorPane>
