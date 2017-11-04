@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+<AnchorPane prefHeight="400.0" prefWidth="400.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
    <children>
       <Button fx:id="myButton" layoutX="145.0" layoutY="62.0" mnemonicParsing="false" onAction="#showResturant" text="决定命运的饭店" AnchorPane.bottomAnchor="315.0" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="155.0" AnchorPane.topAnchor="62.0" />
       <TextField fx:id="myTextField" layoutX="114.0" layoutY="14.0" AnchorPane.bottomAnchor="363.0" AnchorPane.leftAnchor="114.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="14.0" />
